@@ -10,7 +10,7 @@ public class Game {
 
         while (true) 
         { 
-            System.out.println("Your board: ");
+            System.out.println(" board: ");
             person.getBoard().print(true);
             System.out.println("Enemy board: ");
             computer.getBoard().print(false);
